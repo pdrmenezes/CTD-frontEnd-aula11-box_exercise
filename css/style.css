@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    height: 2000px;
+}
+
+.caixa {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+.caixa#left {
+    background-color:khaki;
+    position: relative;
+    right: 0px;
+}
+
+.caixa#center {
+    position: fixed;
+    bottom: 0px;
+    left: 50vh;
+    background-color:salmon;
+}
+
+.caixa#right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: tomato;
+
+}
+
+.caixa-dentro {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    background-color: wheat;
+    color:teal;
+    margin: 40px;
+    text-align: center; 
+    padding: 85px 0px 0px 0px;
+}
